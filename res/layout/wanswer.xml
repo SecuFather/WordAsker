@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent" android:orientation="vertical">
+  	<TextView
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"	  	
+	  	android:text="@string/question"
+	  	android:textSize="@dimen/smallFont"
+	  	android:layout_gravity="center"/>
+  	<TextView
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:id="@+id/questionText"
+	  	android:text="I just want to be your everything"
+	  	android:textSize="@dimen/bigFont"	  	
+	  	android:layout_gravity="center"/>
+	<TextView
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"	  	
+	  	android:text="@string/answer"
+	  	android:textSize="@dimen/smallFont"
+	  	android:layout_gravity="center"/>
+  	<TextView
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:id="@+id/answerText"
+	  	android:text="śćźżółąę"
+	  	android:textSize="@dimen/bigFont"
+	  	android:paddingBottom="@dimen/smallFont"	  	
+	  	android:layout_gravity="center"/>
+	  <TextView
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"	  	
+	  	android:text="stats"
+	  	android:textSize="@dimen/smallFont"
+	  	android:layout_gravity="center"
+	  	android:id="@+id/stats"/>
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>	
+			<Button
+			  	android:textSize="@dimen/bigFont"
+			  	android:layout_width="@dimen/buttonWidth"
+			  	android:layout_height="@dimen/buttonHeight"			  	
+			  	android:text="++"
+			  	android:id="@+id/sureWordButton"/>
+			<Button
+			  	android:textSize="@dimen/bigFont"
+				android:layout_width="@dimen/buttonWidth"
+			  	android:layout_height="@dimen/buttonHeight"			  				  	
+			  	android:text="--"
+			  	android:id="@+id/unknownWordButton"/>
+		</TableRow>
+		<TableRow>			
+			<Button
+			  	android:textSize="@dimen/bigFont"
+			  	android:layout_width="@dimen/buttonWidth"
+			  	android:layout_height="@dimen/buttonHeight"			  				  			  
+			  	android:text="+"
+			  	android:id="@+id/easyWordButton"/>
+			<Button
+			  	android:textSize="@dimen/bigFont"
+			  	android:layout_width="@dimen/buttonWidth"
+			  	android:layout_height="@dimen/buttonHeight"
+			  	android:text="-"
+			  	android:id="@+id/hardWordButton"/>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
+

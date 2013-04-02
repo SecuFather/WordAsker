@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/gotoMenu" android:title="Menu" android:visible="true"></item>
+    <item android:id="@+id/gotoBase" android:title="@string/base" android:visible="true"></item>
+    <item android:id="@+id/gotoOptions" android:title="@string/options" android:visible="true"></item>
+    <item android:id="@+id/addSth" android:title="@string/addSth" android:visible="false"></item>
+    <item android:id="@+id/editSth" android:title="@string/editSth" android:visible="false"></item>
+    <item android:id="@+id/deleteSth" android:title="@string/deleteSth" android:visible="false"></item>
+</menu>

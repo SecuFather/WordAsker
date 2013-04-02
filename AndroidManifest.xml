@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pl.com.rejkowicz"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/appName">
+        <activity android:name="WMenu"
+                  android:label="@string/appName">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="WOptions"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WBaseList"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WBase"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WAsk"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WAnswer"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WEditBase"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WEditWord"
+        		  android:label="@string/appName">
+        </activity>
+        <activity android:name="WWordView"
+        		  android:label="@string/appName">
+        </activity>
+        
+
+    </application>
+</manifest>

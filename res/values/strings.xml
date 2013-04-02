@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="appName">Word Asker v2</string>
+	<string name="welcome">Welcome</string>
+	<string name="start">Start</string>
+	<dimen name="smallFont">15sp</dimen>
+	<dimen name="bigFont">25sp</dimen>
+	<string name="base">Base</string>
+	<string name="options">Options</string>
+	<string name="exit">Exit</string>
+	<string name="addSth">Add</string>
+	<string name="editSth">Edit</string>
+	<string name="deleteSth">Delete</string>
+	<string name="language">Language:</string>
+	<string name="emptyStringNotAllowed">Empty string not allowed!</string>
+	<string name="originalWord">Original: </string>
+	<string name="translatedWord">Translated: </string>
+	<string name="goodAnswersCount">Good: </string>
+	<string name="badAnswersCount">Bad: </string>
+	<string name="allAnswersCount">All: </string>
+	<string name="level">Level: </string>
+	<string name="rate">Rate: </string>
+	<string name="resultFor">Result(s) for: </string>
+	<string name="check">Check!</string>
+	<string name="question">Question:</string>
+	<dimen name="buttonHeight">100sp</dimen>
+	<dimen name="buttonWidth">160sp</dimen>
+	<string name="answer">Answer: </string>
+</resources>
